@@ -15,6 +15,15 @@ const HomePage = () => {
     <div className="home-page">
       <TopSlide />
       <NewArrival />
+      <h1 className="mt-2">Discover an Exquisite Collection </h1>
+      <div className="row p-1">
+        <div className="col-md-6 col-sm-12"></div>
+        <div className="col-md-6 col-sm-12"></div>
+      </div>
+      <div className="row p-1">
+        <div className="col-md-6 col-sm-12"></div>
+        <div className="col-md-6 col-sm-12"></div>
+      </div>
     </div>
   );
 };

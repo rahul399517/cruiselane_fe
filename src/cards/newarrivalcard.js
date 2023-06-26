@@ -8,6 +8,13 @@ const NewArrivalCard = () => {
         <div className="car-image">
           <Card.Img variant="top" style={{ height: "150px" }} src={add1} />
         </div>
+        {/* product brand name  */}
+        <span
+          className="badge rounded-pill text-bg-light shadow"
+          style={{ position: "absolute", top: "10px", left: "3px" }}
+        >
+          BMW
+        </span>
         <Card.Body>
           <div className="car-info row">
             <div className="car-price col-4 ">
@@ -15,7 +22,7 @@ const NewArrivalCard = () => {
                 className="car-model mt-1"
                 style={{ fontSize: "small", fontWeight: "700" }}
               >
-                Car Model
+                BMW M4 Coupe
               </Card.Title>
             </div>
 

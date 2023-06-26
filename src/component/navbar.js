@@ -27,9 +27,7 @@ const NavBar = () => {
           <Nav.Link href="#vehicles" className="nav-link">
             Trucks
           </Nav.Link>
-          <Nav.Link href="#vehicles" className="nav-link">
-            Buses
-          </Nav.Link>
+
           <Nav.Link href="#vehicles" className="nav-link">
             Home-on-wheel
           </Nav.Link>
