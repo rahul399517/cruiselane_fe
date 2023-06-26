@@ -9,20 +9,34 @@ import add2 from "../images/add2.png";
 import { Card } from "react-bootstrap";
 import NewArrival from "../component/newarrival";
 import TopSlide from "../component/topslide";
+import IntroCars from "../component/introcars";
+import IntroBikes from "../component/introbikes";
+import IntroHomeWheel from "../component/introhomeWheel";
+import IntroTrucks from "../component/introtrucks";
 
 const HomePage = () => {
   return (
     <div className="home-page">
       <TopSlide />
       <NewArrival />
+      <br></br>
+      <hr></hr>
       <h1 className="mt-2">Discover an Exquisite Collection </h1>
       <div className="row p-1">
-        <div className="col-md-6 col-sm-12"></div>
-        <div className="col-md-6 col-sm-12"></div>
+        <div className="col-md-6 col-sm-12">
+          <IntroCars />
+        </div>
+        <div className="col-md-6 col-sm-12">
+          <IntroBikes />
+        </div>
       </div>
       <div className="row p-1">
-        <div className="col-md-6 col-sm-12"></div>
-        <div className="col-md-6 col-sm-12"></div>
+        <div className="col-md-6 col-sm-12">
+          <IntroHomeWheel />
+        </div>
+        <div className="col-md-6 col-sm-12">
+          <IntroTrucks />
+        </div>
       </div>
     </div>
   );
