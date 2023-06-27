@@ -38,6 +38,7 @@ const HomePage = () => {
           <IntroTrucks />
         </div>
       </div>
+      <br></br>
     </div>
   );
 };
