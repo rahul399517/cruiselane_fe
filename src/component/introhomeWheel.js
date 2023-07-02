@@ -3,10 +3,10 @@ import IntroHomeWheelCard from "../cards/introhomewheel";
 const IntroHomeWheel = () => {
   return (
     <div>
-      <Card className="shadow m-2">
+      <Card className="m-2" style={{ border: "none" }}>
         <Card.Title>
           <br></br>
-          UNLEASH YOUR THRILL || Explore Our Stunning Motor-Home Collection
+          Explore Our Stunning Motor-Home Collection
         </Card.Title>
         <div className="row">
           <div className="col-6 p-3">

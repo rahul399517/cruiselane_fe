@@ -3,7 +3,7 @@ import IntroTrucksCard from "../cards/introtruckscard";
 const IntroTrucks = () => {
   return (
     <div>
-      <Card className="shadow m-2">
+      <Card className="m-2" style={{ border: "none" }}>
         <Card.Title>
           <br></br>
           UNLEASH YOUR THRILL || Explore Our Stunning Truck Collection

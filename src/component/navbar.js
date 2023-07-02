@@ -8,7 +8,7 @@ const NavBar = () => {
       <Navbar.Brand href="/" className="navbar-brand">
         <img
           src={logom}
-          style={{ width: "200px", height: "50px" }}
+          style={{ width: "235px", height: "40px" }}
           alt="logo not available"
         ></img>
       </Navbar.Brand>

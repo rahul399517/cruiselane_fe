@@ -13,6 +13,7 @@ import IntroCars from "../component/introcars";
 import IntroBikes from "../component/introbikes";
 import IntroHomeWheel from "../component/introhomeWheel";
 import IntroTrucks from "../component/introtrucks";
+import HomeVideos from "../component/homevideo";
 
 const HomePage = () => {
   return (
@@ -39,6 +40,8 @@ const HomePage = () => {
         </div>
       </div>
       <br></br>
+      <h1>Check Out Our Jaw-Dropping Video Collection!</h1>
+      <HomeVideos />
     </div>
   );
 };

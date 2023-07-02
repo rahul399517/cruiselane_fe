@@ -5,7 +5,7 @@ import IntroBikesCard from "../cards/introbikescard";
 const IntroBikes = () => {
   return (
     <div>
-      <Card className=" m-2 shadow">
+      <Card className="m-2" style={{ border: "none" }}>
         <Card.Title>
           <br></br>
           UNLEASH YOUR THRILL || Explore Our Stunning Bike Collection
